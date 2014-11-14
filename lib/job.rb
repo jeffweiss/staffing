@@ -1,3 +1,3 @@
 class Job
-	attr :name, :description
+  attr :name, :description
 end
