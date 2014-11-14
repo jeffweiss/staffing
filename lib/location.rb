@@ -1,4 +1,3 @@
 class Location
-	attr :room, :floor, :ordinal
-	
+  attr :room, :floor, :ordinal
 end
