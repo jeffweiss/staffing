@@ -1,5 +1,9 @@
 class SkillPopulator
   def self.populate
-    [:foo]
+    people = Person.all
+    people.each do |person|
+      person.skills << :foo
+    end
+    people
   end
 end

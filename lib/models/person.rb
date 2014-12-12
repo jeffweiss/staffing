@@ -8,4 +8,9 @@ class Person
     @skills = []
   end
 
+  def self.all
+    fake_person = Person.new
+    [fake_person]
+  end
+
 end
